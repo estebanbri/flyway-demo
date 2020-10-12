@@ -86,7 +86,7 @@
 								</goals>
 								<configuration>
 									<baselineVersion>1</baselineVersion>
-									<target>4</target>
+									<target>4</target> <!--will run versiones scritps < V04 (STRICT LESSER THAN) -->
 									<driver>${spring.datasource.driver}</driver>
 									<url>${spring.datasource.url}</url>
 									<user>${spring.datasource.username}</user>
