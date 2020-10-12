@@ -80,13 +80,13 @@
 								<phase>compile</phase>
 								<goals>
 									<!-- Ojo clean te borra toda la base -->
-									<!--<goal>clean</goal>-->
+									<goal>clean</goal>
 									<goal>baseline</goal>
 									<goal>migrate</goal>
 								</goals>
 								<configuration>
 									<baselineVersion>1</baselineVersion>
-									<target>6</target>
+									<target>4</target>
 									<driver>${spring.datasource.driver}</driver>
 									<url>${spring.datasource.url}</url>
 									<user>${spring.datasource.username}</user>
